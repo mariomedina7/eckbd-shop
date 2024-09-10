@@ -1,0 +1,38 @@
+.header {
+    padding: 40px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__item {
+        padding: .8rem;
+        transition: all .3s linear;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $black;
+            color: $white;
+            border-radius: 4px;
+        }
+    }
+    
+    &__link {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+}
+
+
+
+
+

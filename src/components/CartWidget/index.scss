@@ -1,0 +1,9 @@
+.cart-widget {
+    position: relative;
+    display: inline-block;
+
+    &__icon {
+        font-size: $jumbo;
+    }
+}
+

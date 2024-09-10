@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "Lift MO + Mesa de Eucalipto / Fingerjoint 20mm",
+        "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
+        "category": "Mesas",
+        "img" : {
+            "front" : "/mesas/liftMOFront.png",
+            "back" : "/mesas/liftMOBack.png"
+        },
+        "price": 24200,
+        "dues": 3,
+        "stock" : 10,
+        "sells": 11
+    },
+    {
+        "id": 2,
+        "name": "Lift MO + Mesa de Madera Clara / Melamina 18mm",
+        "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
+        "category": "Mesas",
+        "img" : {
+            "front" : "/mesas/liftClaraFront.png",
+            "back" : "/mesas/liftClaraBack.png"
+        },
+        "price": 13300,
+        "dues": 3,
+        "stock" : 5,
+        "sells": 20
+    },
+    {
+        "id": 3,
+        "name": "Lift MO + Mesa Blanca / Melamina 18mm",
+        "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
+        "category": "Mesas",
+        "img" : {
+            "front" : "/mesas/liftBlancaFront.png",
+            "back" : "/mesas/liftBlancaBack.png"
+        },
+        "price": 13300,
+        "dues": 3,
+        "stock" : 5,
+        "sells": 20
+    },
+    {
+        "id": 4,
+        "name": "Lift MO + Mesa Negra / Melamina 18mm",
+        "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
+        "category": "Mesas",
+        "img" : {
+            "front" : "/mesas/liftNegraFront.png",
+            "back" : "/mesas/liftNegraBack.png"
+        },
+        "price": 13300,
+        "dues": 3,
+        "stock" : 5,
+        "sells": 20
+    },
+    {
+        "id": 5,
+        "name": "Lift MO + Mesa de Madera Clara / Melamina 18mm",
+        "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
+        "category": "Mesas",
+        "img" : {
+            "front" : "/mesas/liftClaraFront.png",
+            "back" : "/mesas/liftClaraBack.png"
+        },
+        "price": 13300,
+        "dues": 3,
+        "stock" : 5,
+        "sells": 20
+    },
+    {
+        "id": 6,
+        "name": "Lift MO + Mesa de Madera Café / Melamina 18mm",
+        "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
+        "category": "Mesas",
+        "img" : {
+            "front" : "/mesas/liftCafeFront.png",
+            "back" : "/mesas/liftCafeBack.png"
+        },
+        "price": 13300,
+        "dues": 3,
+        "stock" : 5,
+        "sells": 20
+    },
+    {
+        "id": 7,
+        "name": "Lift MO + Mesa de Eucalipto / Fingerjoint 20mm",
+        "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
+        "category": "Mesas",
+        "img" : {
+            "front" : "/mesas/liftMOFront.png",
+            "back" : "/mesas/liftMOBack.png"
+        },
+        "price": 24200,
+        "dues": 3,
+        "stock" : 10,
+        "sells": 11
+    },
+    {
+        "id": 8,
+        "name": "Lift MO + Mesa Blanca / Melamina 18mm",
+        "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
+        "category": "Mesas",
+        "img" : {
+            "front" : "/mesas/liftBlancaFront.png",
+            "back" : "/mesas/liftBlancaBack.png"
+        },
+        "price": 13300,
+        "dues": 3,
+        "stock" : 5,
+        "sells": 20
+    },
+    {
+        "id": 10,
+        "name": "Lift MO + Mesa Negra / Melamina 18mm",
+        "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
+        "category": "Mesas",
+        "img" : {
+            "front" : "/mesas/liftNegraFront.png",
+            "back" : "/mesas/liftNegraBack.png"
+        },
+        "price": 13300,
+        "dues": 3,
+        "stock" : 5,
+        "sells": 20
+    }
+]
