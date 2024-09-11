@@ -7,25 +7,15 @@ const Detail = () => {
     let [product, setProduct] = useState(null)
 
     useEffect(() => {
-        fetch(`https://api.escuelajs.co/api/v1/products/${id}`)
+        fetch('/src/data/items.json')
             .then((response) => response.json())
-            .then((data) => {
-                setProduct(data)
-            })
+            .then(data => setProduct(data.find(product => product.id == id)))
             .catch((error) => console.error("Error", error))
-    }, [id])
+    }, [])
 
     return (
         <>
-            {product && (
-                <ItemDetail 
-                    title={product.title} 
-                    images={product.images} 
-                    price={product.price} 
-                    description={product.description} 
-                    category={product.category.name} 
-                />
-            )}
+            <ItemDetail {...product}/>  
         </>
     )
 }

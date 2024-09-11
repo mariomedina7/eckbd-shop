@@ -1,16 +1,18 @@
-const ItemDetail = ({ title, images, price, description, category }) => {
+import ItemCount from "../ItemCount"
+const ItemDetail = ({ title, img, price, description, category }) => {
+
     return (
         <>
             <section className="item-detail container">
                 <picture className="item-detail__picture">
                 <img
               className="item-detail__picture--img item-detail__picture--img--1"
-              src={images[0]}
+              src={`${img?.front}`}
               alt={`${title} - Figura`}
             />
             <img
               className="item-detail__picture--img item-detail__picture--img--2"
-              src={images[1]}
+              src={`${img?.back}`}
               alt={`${title} - Caja`}
             />
                 </picture>
@@ -18,7 +20,8 @@ const ItemDetail = ({ title, images, price, description, category }) => {
                     <p className="item-detail__info--category">{category}</p>
                     <h2 className="item-detail__info--title">{title}</h2>
                     <p className="item-detail__info--description">{description}</p>
-                    <p className="item-detail__info--price">$USD {price},00</p>
+                    <p className="item-detail__info--price">$UY {price},00</p>
+                    <ItemCount />
                 </article>
             </section>
         </>

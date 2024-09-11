@@ -1,126 +1,126 @@
 [
     {
         "id": 1,
-        "name": "Lift MO + Mesa de Eucalipto / Fingerjoint 20mm",
-        "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
-        "category": "Mesas",
+        "title": "Set MIMBRE Cielo Blanco 4 SILLAS",
+        "description" : "Este elegante y funcional juego de patio CIELO de mesa y 4 sillas de mimbre sintético es el refugio perfecto cuando desee relajarse." ,
+        "category": "mesas",
         "img" : {
-            "front" : "/mesas/liftMOFront.png",
-            "back" : "/mesas/liftMOBack.png"
+            "front" : "/mesas/mimbreCieloFront.png",
+            "back" : "/mesas/mimbreCieloBack.png"
         },
-        "price": 24200,
+        "price": 7.499,
         "dues": 3,
         "stock" : 10,
         "sells": 11
     },
     {
         "id": 2,
-        "name": "Lift MO + Mesa de Madera Clara / Melamina 18mm",
-        "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
-        "category": "Mesas",
+        "title": "Set MIMBRE Cielo Negro 4 SILLAS",
+        "description" : "El juego de patio CIELO está fabricado con acero resistente y ratán de PVC de alta calidad, lo que lo hace duradero y fácil de mantener." ,
+        "category": "mesas",
         "img" : {
-            "front" : "/mesas/liftClaraFront.png",
-            "back" : "/mesas/liftClaraBack.png"
+            "front" : "/mesas/mimbreNegroFront.png",
+            "back" : "/mesas/mimbreNegroBack.png"
         },
-        "price": 13300,
+        "price": 7.499,
         "dues": 3,
         "stock" : 5,
         "sells": 20
     },
     {
         "id": 3,
-        "name": "Lift MO + Mesa Blanca / Melamina 18mm",
-        "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
-        "category": "Mesas",
+        "title": "Set MIMBRE Cielo Blanco",
+        "description" : "La mesa auxiliar posee una tapa de vidrio que es resistente y fácil de limpiar. Puede disfrutar de un buen momento con su familia para conversar." ,
+        "category": "mesas",
         "img" : {
-            "front" : "/mesas/liftBlancaFront.png",
-            "back" : "/mesas/liftBlancaBack.png"
+            "front" : "/mesas/mimbreDuoCieloFront.png",
+            "back" : "/mesas/mimbreDuoCieloBack.png"
         },
-        "price": 13300,
+        "price": 4.499,
         "dues": 3,
         "stock" : 5,
         "sells": 20
     },
     {
         "id": 4,
-        "name": "Lift MO + Mesa Negra / Melamina 18mm",
-        "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
-        "category": "Mesas",
+        "title": "Organizador de ESCRITORIO notas",
+        "description" : "Organizador de escritorio, cuenta con compartimentos ideales para un almacenamiento cómodo y ordenado." ,
+        "category": "organizadores",
         "img" : {
-            "front" : "/mesas/liftNegraFront.png",
-            "back" : "/mesas/liftNegraBack.png"
+            "front" : "/organizadores/organizadorFront.png",
+            "back" : "/organizadores/organizadorBack.png"
         },
-        "price": 13300,
+        "price": 1.199,
         "dues": 3,
         "stock" : 5,
         "sells": 20
     },
     {
         "id": 5,
-        "name": "Lift MO + Mesa de Madera Clara / Melamina 18mm",
-        "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
-        "category": "Mesas",
+        "title": "Organizador de ESCRITORIO libros",
+        "description" : "Organizador de escritorio, cuenta con compartimentos ideales para un almacenamiento cómodo y ordenado." ,
+        "category": "organizadores",
         "img" : {
-            "front" : "/mesas/liftClaraFront.png",
-            "back" : "/mesas/liftClaraBack.png"
+            "front" : "/organizadores/organizadorMibliFront.png",
+            "back" : "/organizadores/organizadorMibliBack.png"
         },
-        "price": 13300,
+        "price": 1.299,
         "dues": 3,
         "stock" : 5,
         "sells": 20
     },
     {
         "id": 6,
-        "name": "Lift MO + Mesa de Madera Café / Melamina 18mm",
-        "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
-        "category": "Mesas",
+        "title": "Organizador de ESCRITORIO lápices XL",
+        "description" : "Organizador de escritorio, cuenta con 12 compartimentos para un almacenamiento cómodo y ordenado." ,
+        "category": "organizadores",
         "img" : {
-            "front" : "/mesas/liftCafeFront.png",
-            "back" : "/mesas/liftCafeBack.png"
+            "front" : "/organizadores/organizadorLapizFront.png",
+            "back" : "/organizadores/organizadorLapizBack.png"
         },
-        "price": 13300,
+        "price": 750,
         "dues": 3,
         "stock" : 5,
         "sells": 20
     },
     {
-        "id": 7,
-        "name": "Lift MO + Mesa de Eucalipto / Fingerjoint 20mm",
+    "id": 7,
+        "title": "Lift MO + Mesa de Eucalipto / Fingerjoint 20mm",
         "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
-        "category": "Mesas",
+        "category": "escritorios",
         "img" : {
-            "front" : "/mesas/liftMOFront.png",
-            "back" : "/mesas/liftMOBack.png"
+            "front" : "/escritorios/liftMOFront.png",
+            "back" : "/escritorios/liftMOBack.png"
         },
-        "price": 24200,
+        "price": 24.499,
         "dues": 3,
         "stock" : 10,
         "sells": 11
     },
     {
         "id": 8,
-        "name": "Lift MO + Mesa Blanca / Melamina 18mm",
+        "title": "Lift MO + Mesa de Madera Clara / Melamina 18mm",
         "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
-        "category": "Mesas",
+        "category": "escritorios",
         "img" : {
-            "front" : "/mesas/liftBlancaFront.png",
-            "back" : "/mesas/liftBlancaBack.png"
+            "front" : "/escritorios/liftClaraFront.png",
+            "back" : "/escritorios/liftClaraBack.png"
         },
-        "price": 13300,
+        "price": 13.499,
         "dues": 3,
         "stock" : 5,
         "sells": 20
     },
     {
-        "id": 10,
-        "name": "Lift MO + Mesa Negra / Melamina 18mm",
+        "id": 9,
+        "title": "Lift MO + Mesa Blanca / Melamina 18mm",
         "description" : "Escritorio eléctrico de altura y largo ajustable de 1 motor." ,
-        "category": "Mesas",
+        "category": "escritorios",
         "img" : {
-            "front" : "/mesas/liftNegraFront.png",
-            "back" : "/mesas/liftNegraBack.png"
+            "front" : "/escritorios/liftBlancaFront.png",
+            "back" : "/escritorios/liftBlancaBack.png"
         },
-        "price": 13300,
+        "price": 13.499,
         "dues": 3,
         "stock" : 5,
         "sells": 20

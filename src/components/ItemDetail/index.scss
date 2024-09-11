@@ -35,8 +35,9 @@
 
         &--category {
             color: $crimson;
-            font-size: $xsmall;
+            font-size: $small;
             font-weight: bold;
+            text-transform: uppercase;
         }
 
         &--title {

@@ -1,0 +1,49 @@
+.item-count {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+    &__controls {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2em;
+        max-width: 260px;
+    }
+
+    &__controls--buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100px;
+        gap: 0.2em;
+    }
+
+    &__controls--buttons button {
+        background-color: $black;
+        padding: 2px;
+        color: $white;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+    }
+
+    &__controls--buttons span {
+        font-size: $small;
+    }
+}
+
+.add-to-cart-btn {
+    font-family: $monserrat;
+    border: none;
+    text-transform: uppercase;
+    font-size: $xsmall;
+    font-weight: bold;
+    background-color: $crimson;
+    color: $white;
+    padding: 1em 2em;
+    cursor: pointer;
+}
+

@@ -11,6 +11,7 @@ function App() {
         <BaseLayout>
           <Routes>
             <Route exact path="/" element={<Store />} />
+            <Route exact path="/category/:categoryId" element={<Store />} />
             <Route exact path="/item/:id" element={<Detail />} />
           </Routes>
         </BaseLayout>

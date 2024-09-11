@@ -52,7 +52,9 @@
 
         &--title {
             font-size: $xsmall;
-            font-weight: 400;
+            font-weight: bold;
+            color: $crimson;
+            text-transform: uppercase;
         }
 
         &--item {
