@@ -11,7 +11,12 @@
 // Containers
 
 @import './containers/Header';
+@import './containers/Footer';
 
+// Pages
+
+@import './pages/Store';
+@import './pages/Cart';
 
 // Components
 
@@ -22,5 +27,6 @@
 @import './components/ItemList';
 @import './components/ItemDetail';
 @import './components/ItemCount';
-
-
+@import './components/Spinner';
+@import './components/NotFound';
+@import './components/Menu';

@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+
+        h2 {
+            font-size: 35px;
+            text-transform: uppercase;
+            letter-spacing: .3em;
+        }
+        
+        p {
+            font-size: $xsmall;
+        }
+    }
+
+    &__nav-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    &__nav-icon {
+        color: $black;
+        font-size: 32px;
+        cursor: pointer;
+    }
+}

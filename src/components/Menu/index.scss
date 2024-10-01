@@ -1,0 +1,11 @@
+.active {
+    color: #000000;
+    font-weight: bold;
+    border-bottom: 2px solid #000000;
+    text-decoration: none;
+    
+    &:hover {
+        color: #ffffff;
+        border-bottom: 2px solid #000000;
+    }
+}

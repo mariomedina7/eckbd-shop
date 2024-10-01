@@ -1,7 +1,13 @@
 import { Icon } from '@iconify/react';
 import Pill from '../Pill';
+import { useContext } from 'react';
+import { CartContext } from '../../context/cartContext';
 
-const CartWidget = ({quantity}) => {
+const CartWidget = () => {
+
+    const { cartItems } = useContext(CartContext);
+
+    const quantity = cartItems.reduce((acc, item) => acc + item.quantity, 0);
 
     return (
         <>

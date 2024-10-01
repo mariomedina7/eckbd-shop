@@ -1,10 +1,14 @@
-import logo from '../../../public/logo/eckbdLogo.png'
+import logo from '/logo/eckbdLogo.png'
 import Menu from '../../components/Menu'
 import CartWidget from '../../components/CartWidget'
 import { Link } from 'react-router-dom'
 const Header = () => {
 
     const links = [
+        {
+            label: 'Tienda',
+            href: '/'
+        },
         {
             label: 'Mesas',
             href: '/category/mesas'
@@ -16,10 +20,6 @@ const Header = () => {
         {
             label: 'Escritorios',
             href: '/category/escritorios'
-        },
-        {
-            label: 'Tienda',
-            href: '/'
         }
     ]
 
@@ -34,7 +34,7 @@ const Header = () => {
                     </Link>
                     <Menu className="navbar" links={links} />
                     <li className="navbar">
-                        <Link to="#" className="navbar__link-button">
+                        <Link to="/cart" className="navbar__link-button">
                             <CartWidget quantity={0}/>
                         </Link>
                     </li>
