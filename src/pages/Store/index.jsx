@@ -13,33 +13,6 @@ const Store = () => {
   let [products, setProducts] = useState([]);
   let [loading, setLoading] = useState(false);
   let [error, setError] = useState(false);
-
-  // useEffect(() => {
-  //   setLoading(true);
-  
-  //   const delay = 2000;
-  
-  //   const timer = setTimeout(() => {
-  //     fetch('/src/data/items.json')
-  //       .then((response) => response.json())
-  //       .then((data) => {
-  //         if (categoryId) {
-  //           setProducts(data.filter((product) => product.category === categoryId));
-  //         } else {
-  //           setProducts(data);
-  //         }
-  //       })
-  //       .catch((err) => {
-  //         setError(true);
-  //       })
-  //       .finally(() => {
-  //         setLoading(false);
-  //       });
-  //   }, delay);
-  
-  //   return () => clearTimeout(timer);
-  
-  // }, [categoryId]);
   
   useEffect(() => {
     setLoading(true);
