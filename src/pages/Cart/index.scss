@@ -43,9 +43,10 @@
             border: none;
             padding: 10px 15px;
             border-radius: 4px;
-            margin-left: 10px;
             cursor: pointer;
             transition: background-color 0.3s ease;
+            font-family: $monserrat;
+            font-size: $small;
 
             &:hover {
                 background-color: darkred;
@@ -80,6 +81,27 @@
         font-weight: bold;
         margin-top: 20px;
         text-align: right;
+    }
+
+    &__button--finish {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-left: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-size: $small;
+
+        &:hover {
+            background-color: rgb(43, 39, 39);
+        }
+    }
+
+    p {
+        font-size: $small;
+        text-align: center;
     }
 }
 
